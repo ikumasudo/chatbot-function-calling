@@ -7,7 +7,9 @@ git clone https://github.com/be4rr/chatbot-function-calling.git
 cd chatbot-function-calling
 ```
 
-Rename `.env.example` to `.env` and fill in the API key.
+```bash
+echo 'OPENAI_API_KEY=<API KEY>' > .env
+```
 
 ```bash
 python -m venv venv
